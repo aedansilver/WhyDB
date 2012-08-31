@@ -1,0 +1,40 @@
+#####################################
+#	WhyDB HOWTO Commit	    
+#		READ CAREFULLY!!!! 
+#####################################
+
+REMEMBER TO COMMIT changeset_xx.sql AND APPLY IT ON THE WORLDDATABASE!
+Do NOT only apply it on the worlddatabase and commit!
+
+#### Changeset info ####
+You can commit all changes in one big changeset, or by smaller changesets as you like but remeber to add tha UPDATE row (listed down) on start.
+AND REMEBER TO TEST CHANGESET.
+
+AND REMEBER TO ADD THIS LINE AT THE START OF CHANGESET:
+UPDATE `db_version` SET revision ='newrevaftercommit', changeset = 'numberofnewchangeset' WHERE db_name LIKE 'WhyDB';
+
+#### HOWTO Commit on the SVN! ####
+Example of your whydb svn folder: C:\Sources\WhyDB\
+Example of your copieed whydb folder: C:\Sources\ChangedDB
+ 1.| First remember what you do is UPDATE the svn!
+ 2.| Then you have to import the db with the tool.bat from the latest rev from the svn. DONT APPLY THE MOON SCRIPT SQL!!!!!
+ 3.| Apply your fixes on the db.
+ 4.| Make a copy of the WhyDB svn folder, MAKE SURE YOU DO NOT PLACE IT IN THE WHYDB SVN FOLDER! Example: 'C:\Sources\ChangedDB'
+ 5.| Run tool.bat from 'C:\Sources\ChangedDB\tool.bat' and choose 'w'
+ 6.| Go to 'C:\Sources\ChangedDB\development\ascent_world' and copie ONLY the CHANGED tables
+ 7.| Paste the CHANGED tables in 'C:\Sources\WhyDB\development\ascent_world'
+ 8.| Next you go to 'C:\Sources\' and you do a right click on WhyDB and choose 'SVN Committ...'
+ 9.| A window will appear, type your comments and the changelog part, check the files that should be comitted.
+10.| Hit on 'Ok' and if everything goes well your stuff is comitted.
+
+#### EXAMPLE OF HOW TO CHOOSE THE 'CHANGED' TABLES ####
+Your fix:
+REPLACE INTO creature_names VALUES (24689, 'Wretched Bruiser', '', '', 8, 7, 0, 1, 0, 0, 22843, 0, 0, 0, 2.5, 5, 0, 0);
+REPLACE INTO creature_proto VALUES (24689, 69, 69, 16, 23000, 23000, 0, 1, 0, 1700, 2000, 400, 600, 0, 0, 0, 0, 0, 7476, 50267138, 781, 0, 0, 0, 0, 0, 0, 360000, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 0, 0, 0, 2.5, 8, 14, 0);
+INSERT INTO creature_spawns VALUES (207383, 24689, 585, 222.322, -18.0104, -2.97457, 5.8294, 1, 22843, 16, 32832, 16777472, 4097, 0, 0, 0, 0, 0, 0);
+
+You see that creature_names, creature_proto and creature_spawns are affected if you run it. So this means that you have to copy from 'C:\Sources\ChangedDB\development\ascent_world' creature_proto.sql, creature_names.sql and creature_spawns.sql.
+
+#### READ CAREFULLY!!! ####
+
+AND DONT FORGET TO INCLUDE THE CHANGESET_XX.SQL !!!

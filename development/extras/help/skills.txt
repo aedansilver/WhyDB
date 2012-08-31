@@ -1,0 +1,607 @@
+Spells and Skills
+
+All special actions a player can perform require a spell and there are several thousands of them which can be found in the spell.dbc. As it is a very long list, it can not be posted here. You can download it from here. Keep in mind that many of them don't work in the intended way or don't work at all.
+
+For some spells an additonal skill is required to determine "how good" the player can do a certain action. Never forget that learning a skill is useless if you not also learn the linked spell. The following skills can be extracted from the clientside skillline.dbc.
+
+Skills
+
+6 - - - - Frost
+8 - - - - Fire
+26 - - - -Arms
+38 - - - -Combat
+39 - - - -Subtlety
+40 - - - -Poisons
+43 - - - -Swords - - - - Spell - 201
+44 - - - -Axes - - - - Spell - 196
+45 - - - -Bows - - - - Spell - 264
+46 - - - -Guns - - - - Spell - 266
+50 - - - -Beast
+51 - - - -Outdoorsmanship
+54 - - - -Maces - - - - Spell - 198
+55 - - - -Two-Handed Swords - - - - Spell - 202
+56 - - - -Holy
+78 - - - -Shadow Magic
+95 - - - -efense
+98 - - - -Language: Common - - - - Spell - 668
+101 - - - Dwarven Racial
+109 - - - Language: Orcish - - - - Spell - 669
+111 - - - Language: Dwarven - - - - Spell - 672
+113 - - - Language: Darnassian - - - - Spell - 671
+115 - - - Language: Taurahe - - - - Spell - 670
+118 - - - Dual Wield
+124 - - - Tauren Racial
+125 - - - Orc Racial
+126 - - - Night Elf
+129 - - - First Aid
+134 - - - Feral Combat
+136 - - - Staves - - - - Spell - 227
+137 - - - Language: Thalassian - - - - Spell - 813
+138 - - - Language: Draconic - - - - Spell - 814
+139 - - - Language: Demon Tongue - - - - Spell - 815
+140 - - - Language: Titan - - - - Spell - 816
+141 - - - Language: Old Tongue - - - - Spell - 817
+142 - - - Survival
+148 - - - Horse Riding - - - - Spell - 6743
+149 - - - Wolf Riding - - - - Spell - 6746
+150 - - - Tiger Riding - - - - Spell - 6745
+152 - - - Ram Riding - - - - Spell - 6744
+155 - - - Swimming
+160 - - - Two-Handed Maces - - - - Spell - 199
+162 - - - Unarmed
+163 - - - Ranged
+164 - - - Blacksmithing
+165 - - - Leatherworking
+171 - - - Alchemy
+172 - - - Two-Handed Axes - - - - Spell - 197
+173 - - - Daggers - - - - Spell - 1180
+176 - - - Thrown - - - - Spell - 2567
+182 - - - Herbalism
+183 - - - GENERIC (DND)
+184 - - - Combat
+185 - - - Cooking
+186 - - - Mining
+188 - - - Pet - Imp
+189 - - - Pet - Felhunter
+197 - - - Tailoring
+202 - - - Engineering
+203 - - - Pet - Spider
+204 - - - Pet - Voidwalker
+205 - - - Pet - Succubus
+206 - - - Pet - Infernal
+207 - - - Pet - Doomguard
+208 - - - Pet - Wolf
+209 - - - Pet - Cat
+210 - - - Pet - Bear
+211 - - - Pet - Boar
+212 - - - Pet - Crocilisk
+213 - - - Pet - Carrion
+214 - - - Pet - Crab
+215 - - - Pet - Gorilla
+217 - - - Pet - Raptor
+218 - - - Pet - Tallstrider
+220 - - - Racial - Undead
+222 - - - Weapon Talents
+226 - - - Crossbows - - - - Spell - 15995
+227 - - - Spears
+228 - - - Wands - - - - Spell - 5009
+XXX - - - Shoot for Wands - - - - Spell - 5019
+229 - - - Polearms
+230 - - - Attribute Enhancements
+231 - - - Slayer Talents
+233 - - - Magic Talents
+234 - - - Defensive Talents
+236 - - - Pet - Scorpid
+237 - - - Arcane
+253 - - - Assassination
+256 - - - Fury
+257 - - - Protection
+261 - - - Beast Training
+267 - - - Protection
+270 - - - Pet - Talents
+293 - - - Plate Mail - - - - Spell - 7109
+313 - - - Language: Gnomish - - - - Spell - 7340
+315 - - - Language: Troll - - - - Spell - 7341
+333 - - - Enchanting
+354 - - - Demonology
+355 - - - Affliction
+356 - - - Fishing
+373 - - - Enhancement
+374 - - - Restoration
+375 - - - Elemental Combat
+393 - - - Skinning
+413 - - - Mail - - - - Spell - 8737
+414 - - - Leather - - - - Spell - 9077
+415 - - - Cloth - - - - Spell - 9078
+433 - - - Shield - - - - Spell - 9116
+473 - - - Fist Weapons
+516 - - - Demon Tracking
+517 - - - Undead Tracking
+518 - - - Dragon Tracking
+519 - - - Elemental Tracking
+533 - - - Raptor Riding - - - - Spell - 10863
+553 - - - Mechanostrider Piloting
+554 - - - Undead Horsemanship
+594 - - - Holy
+613 - - - Discipline
+633 - - - Lockpicking
+653 - - - Pet - Bat
+654 - - - Pet - Hyena
+655 - - - Pet - Owl
+656 - - - Pet - Wind
+673 - - - Language: Gutterspeak - - - - Spell - 17737
+713 - - - Kodo Riding - - - - Spell - 18363
+
+
+
+########################## FOR ASCENT NOW ###########################
+
+6 Frost
+8 Fire
+26 Arms
+38 Combat
+39 Subtlety
+40 Poisons
+43 Swords
+44 Axes
+45 Bows
+46 Guns
+50 Beast Mastery
+51 Survival
+54 Maces
+55 Two-Handed Swords
+56 Holy
+78 Shadow Magic
+95 Defense
+98 Language: Common
+101 Dwarven Racial
+109 Language: Orcish
+111 Language: Dwarven
+113 Language: Darnassian
+115 Language: Taurahe
+118 Dual Wield
+124 Tauren Racial
+125 Orc Racial
+126 Night Elf Racial
+129 First Aid
+134 Feral Combat
+136 Staves
+137 Language: Thalassian
+138 Language: Draconic
+139 Language: Demon Tongue
+140 Language: Titan
+141 Language: Old Tongue
+142 Survival
+148 Horse Riding
+149 Wolf Riding
+150 Tiger Riding
+152 Ram Riding
+155 Swimming
+160 Two-Handed Maces
+162 Unarmed
+163 Marksmanship
+164 Blacksmithing
+165 Leatherworking
+171 Alchemy
+172 Two-Handed Axes
+173 Daggers
+176 Thrown
+182 Herbalism
+183 GENERIC (DND)
+184 Retribution
+185 Cooking
+186 Mining
+188 Pet - Imp
+189 Pet - Felhunter
+197 Tailoring
+202 Engineering
+203 Pet - Spider
+204 Pet - Voidwalker
+205 Pet - Succubus
+206 Pet - Infernal
+207 Pet - Doomguard
+208 Pet - Wolf
+209 Pet - Cat
+210 Pet - Bear
+211 Pet - Boar
+212 Pet - Crocilisk
+213 Pet - Carrion Bird
+214 Pet - Crab
+215 Pet - Gorilla
+217 Pet - Raptor
+218 Pet - Tallstrider
+220 Racial - Undead
+226 Crossbows
+228 Wands
+229 Polearms
+236 Pet - Scorpid
+237 Arcane
+251 Pet - Turtle
+253 Assassination
+256 Fury
+257 Protection
+261 Beast Training
+267 Protection
+270 Pet - Generic
+293 Plate Mail
+313 Language: Gnomish
+315 Language: Troll
+333 Enchanting
+354 Demonology
+355 Affliction
+356 Fishing
+373 Enhancement
+374 Restoration
+375 Elemental Combat
+393 Skinning
+413 Mail
+414 Leather
+415 Cloth
+433 Shield
+473 Fist Weapons
+533 Raptor Riding
+553 Mechanostrider Piloting
+554 Undead Horsemanship
+573 Restoration
+574 Balance
+593 Destruction
+594 Holy
+613 Discipline
+633 Lockpicking
+653 Pet - Bat
+654 Pet - Hyena
+655 Pet - Owl
+656 Pet - Wind Serpent
+673 Language: Gutterspeak
+713 Kodo Riding
+733 Racial - Troll
+753 Racial - Gnome
+754 Racial - Human
+755 Jewelcrafting
+756 Blood Elf Racial
+758 Pet - Event - Remote Control
+759 Language: Draenei
+760 Draenei Racial
+761 Pet - Felguard
+762 Riding
+763 Pet - Dragonhawk
+764 Pet - Nether Ray
+765 Pet - Sporebat
+766 Pet - Warp Stalker
+767 Pet - Ravager
+768 Pet - Serpent
+769 Internal
+770 Blood
+771 Frost
+772 Unholy
+773 Inscription 
+776 Runeforging 
+777 Mounts
+778 Companions
+780 Pet - Exotic Chimaera
+781 Pet - Exotic Devlisaur
+782 Pet - Ghoul
+783 Pet - Exotic Silithid
+784 Pet - Exotic Worm
+785 Pet - Wasp
+786 Pet - Exotic Rhino
+787 Pet - Exotic Core Hound
+788 Pet - Exotic Spirit Beast
+
+DELETE FROM `playercreateinfo_skills` WHERE indexid > 55;
+
+INSERT INTO `playercreateinfo_skills` VALUES (56, 43, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (56, 44, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (56, 55, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (56, 95, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (56, 98, 300, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (56, 129, 270, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (56, 162, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (56, 172, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (56, 183, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (56, 229, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (56, 293, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (56, 413, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (56, 414, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (56, 415, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (56, 433, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (56, 754, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (56, 769, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (56, 770, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (56, 771, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (56, 772, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (56, 777, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (56, 778, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (56, 155, 1, 1);
+
+
+INSERT INTO `playercreateinfo_skills` VALUES (57, 43, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (57, 44, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (57, 55, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (57, 95, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (57, 109, 300, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (57, 129, 270, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (57, 137, 300, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (57, 162, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (57, 172, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (57, 183, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (57, 229, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (57, 293, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (57, 413, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (57, 414, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (57, 415, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (57, 433, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (57, 756, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (57, 769, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (57, 770, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (57, 771, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (57, 772, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (57, 777, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (57, 778, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (57, 155, 1, 1);
+
+
+INSERT INTO `playercreateinfo_skills` VALUES (58, 43, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (58, 44, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (58, 55, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (58, 95, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (58, 109, 300, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (58, 129, 270, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (58, 315, 300, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (58, 162, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (58, 172, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (58, 183, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (58, 229, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (58, 293, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (58, 413, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (58, 414, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (58, 415, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (58, 433, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (58, 733, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (58, 769, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (58, 770, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (58, 771, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (58, 772, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (58, 777, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (58, 778, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (58, 155, 1, 1);
+
+
+INSERT INTO `playercreateinfo_skills` VALUES (59, 43, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (59, 44, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (59, 55, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (59, 95, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (59, 109, 300, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (59, 129, 270, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (59, 115, 300, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (59, 162, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (59, 172, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (59, 183, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (59, 229, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (59, 293, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (59, 413, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (59, 414, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (59, 415, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (59, 433, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (59, 754, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (59, 124, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (59, 770, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (59, 771, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (59, 772, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (59, 777, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (59, 778, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (59, 155, 1, 1);
+
+
+INSERT INTO `playercreateinfo_skills` VALUES (60, 43, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (60, 44, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (60, 55, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (60, 95, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (60, 109, 300, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (60, 129, 270, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (60, 673, 300, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (60, 162, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (60, 172, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (60, 183, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (60, 229, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (60, 293, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (60, 413, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (60, 414, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (60, 415, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (60, 433, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (60, 220, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (60, 770, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (60, 771, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (60, 772, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (60, 777, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (60, 778, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (60, 155, 1, 1);
+
+
+INSERT INTO `playercreateinfo_skills` VALUES (61, 43, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (61, 44, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (61, 55, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (61, 95, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (61, 109, 300, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (61, 129, 270, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (61, 162, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (61, 172, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (61, 183, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (61, 229, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (61, 293, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (61, 413, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (61, 414, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (61, 415, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (61, 433, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (61, 220, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (61, 125, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (61, 770, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (61, 771, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (61, 772, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (61, 777, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (61, 778, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (61, 155, 1, 1);
+
+
+INSERT INTO `playercreateinfo_skills` VALUES (62, 43, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (62, 44, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (62, 55, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (62, 95, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (62, 98, 300, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (62, 111, 300, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (62, 129, 270, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (62, 162, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (62, 172, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (62, 183, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (62, 229, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (62, 293, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (62, 413, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (62, 414, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (62, 415, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (62, 433, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (62, 220, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (62, 101, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (62, 770, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (62, 771, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (62, 772, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (62, 777, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (62, 778, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (62, 155, 1, 1);
+
+
+INSERT INTO `playercreateinfo_skills` VALUES (63, 43, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (63, 44, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (63, 55, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (63, 95, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (63, 98, 300, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (63, 113, 300, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (63, 129, 270, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (63, 162, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (63, 172, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (63, 183, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (63, 229, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (63, 293, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (63, 413, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (63, 414, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (63, 415, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (63, 433, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (63, 220, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (63, 126, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (63, 770, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (63, 771, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (63, 772, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (63, 777, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (63, 778, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (63, 155, 1, 1);
+
+
+INSERT INTO `playercreateinfo_skills` VALUES (64, 43, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (64, 44, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (64, 55, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (64, 95, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (64, 98, 300, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (64, 313, 300, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (64, 129, 270, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (64, 162, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (64, 172, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (64, 183, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (64, 229, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (64, 293, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (64, 413, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (64, 414, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (64, 415, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (64, 433, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (64, 220, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (64, 753, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (64, 770, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (64, 771, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (64, 772, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (64, 777, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (64, 778, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (64, 155, 1, 1);
+
+
+INSERT INTO `playercreateinfo_skills` VALUES (65, 43, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (65, 44, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (65, 55, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (65, 95, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (65, 98, 300, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (65, 759, 300, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (65, 129, 270, 300);
+INSERT INTO `playercreateinfo_skills` VALUES (65, 162, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (65, 172, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (65, 183, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (65, 229, 270, 275);
+INSERT INTO `playercreateinfo_skills` VALUES (65, 293, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (65, 413, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (65, 414, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (65, 415, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (65, 433, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (65, 220, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (65, 760, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (65, 770, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (65, 771, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (65, 772, 5, 5);
+INSERT INTO `playercreateinfo_skills` VALUES (65, 777, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (65, 778, 1, 1);
+INSERT INTO `playercreateinfo_skills` VALUES (65, 155, 1, 1);
+
+
+
+
+INSERT INTO `playercreateinfo_skills` VALUES (1, 778, 1, 1),
+(2, 778, 1, 1),
+(3, 778, 1, 1),
+(4, 778, 1, 1),
+(5, 778, 1, 1),
+(6, 778, 1, 1),
+(7, 778, 1, 1),
+(8, 778, 1, 1),
+(9, 778, 1, 1),
+(10, 778, 1, 1),
+(11, 778, 1, 1),
+(12, 778, 1, 1),
+(13, 778, 1, 1),
+(14, 778, 1, 1),
+(15, 778, 1, 1),
+(16, 778, 1, 1),
+(17, 778, 1, 1),
+(18, 778, 1, 1),
+(19, 778, 1, 1),
+(20, 778, 1, 1),
+(21, 778, 1, 1),
+(22, 778, 1, 1),
+(23, 778, 1, 1),
+(24, 778, 1, 1),
+(25, 778, 1, 1),
+(26, 778, 1, 1),
+(27, 778, 1, 1),
+(28, 778, 1, 1),
+(29, 778, 1, 1),
+(30, 778, 1, 1),
+(31, 778, 1, 1),
+(32, 778, 1, 1),
+(33, 778, 1, 1),
+(34, 778, 1, 1),
+(35, 778, 1, 1),
+(36, 778, 1, 1),
+(37, 778, 1, 1),
+(38, 778, 1, 1),
+(39, 778, 1, 1),
+(40, 778, 1, 1),
+(41, 778, 1, 1),
+(42, 778, 1, 1),
+(43, 778, 1, 1),
+(44, 778, 1, 1),
+(45, 778, 1, 1),
+(46, 778, 1, 1),
+(47, 778, 1, 1),
+(48, 778, 1, 1),
+(49, 778, 1, 1),
+(50, 778, 1, 1),
+(51, 778, 1, 1),
+(52, 778, 1, 1),
+(53, 778, 1, 1),
+(54, 778, 1, 1),
+(55, 778, 1, 1);
+

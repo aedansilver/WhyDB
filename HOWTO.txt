@@ -1,0 +1,77 @@
+Q&A:
+
+1. Which file should I use for importing the whole database?
+
+WINDOWS:
+
+Simply start tool.bat and follow instructions on screen.
+
+UNIX:
+
+Open tool.sh in a text editor and enter your MySQL connection
+information (username, password, database names) near the top
+of the file.
+Then simply start tool.sh and follow the instructions on screen.
+You can do this by typing
+./tool.sh
+or
+bash tool.sh
+in the directory where the file resides.
+Note that this script needs to be run with bash.
+If you don't have bash installed, you can use import.sh (see below).
+
+
+2. What else am I able to do with this tool?
+
+You may also update your current database with our new 
+changesets. You just need to know on which revision
+your database is. You can check this by opening database
+and taking a look on table called db_version. Column
+changeset will tell you, which is the last imported changeset
+in your database. Remember that revision number and changeset
+numbers are not same!
+
+You can also backup your current database (world as well as
+character and logon database). You can also dump 1 or more
+tables you want.
+
+
+3. What is import.bat/import.sh for then?
+
+There is file called import.php is PHP script for importing
+and checking database via PHP. It can import fresh database,
+print info about your current database and also update
+database with new changesets. Import.bat and import.sh are
+just system based tools for easy handling of import.php
+(no need to run any web browser).
+
+
+4. How can I use import.bat/import.sh then?
+
+First be sure you have PHP installed on your computer.
+
+If you are on WINDOWS, copy/paste your php.exe from php
+directory to /Windows/System32/ directory. After this,
+open config.php in notepad (or any other text editor)
+and enter your MySQL information like username, password and
+world database name.
+Then you can run import.bat and follow the instructions on screen.
+
+If you are on UNIX, simply open config.php with a text editor and
+enter your MySQL connection information (username, password and 
+the name of your world database).
+Then run import.sh and follow the instructions on screen.
+You can do this by typing
+./import.sh
+or
+sh import.sh
+in the directory where the file resides.
+This script should run in any POSIX compatible shell.
+
+
+5. Does WhyDB have also character and logon database files on SVN?
+
+No, we don't have them there, you can find latest structures there:
+https://arcemu.svn.sourceforge.net/svnroot/arcemu/trunk/sql/
+Files are called xxxx_logon_structure.sql and
+xxxx_character_structure.sql .
